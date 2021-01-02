@@ -6,9 +6,7 @@ import ReactDOM from 'react-dom';
         
            
 <div >
-<div>
-<h1> {props.children}</h1>
-</div>
+
 <div>
 <h2>fullName: {props.fullName}</h2>
 </div>
@@ -19,7 +17,7 @@ import ReactDOM from 'react-dom';
 <h2>profession:{props.profession}</h2>
 </div>
 <div>
-<h2>my age is {props.age} years old</h2>
+<h2>I'm a  {props.age} years old</h2>
 
 </div>
 <button  onClick={() => props.handleName(`My name is `+ props.fullName)}>  click here  </button>
